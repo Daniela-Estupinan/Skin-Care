@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const router = require('./routes/routes.js');
 const authRoute = require('./routes/auth.js');
+const adminRoute = require('./routes/admin.js');
 const app = express();
 
 
@@ -33,10 +34,19 @@ mongoose.connect(process.env.DB_URI, {
 //routes middlewares
 
 app.use('/api/user', authRoute);
+
+app.use('/api/admin', adminRoute);
 //routes prefixs
 
 app.use("/api/post", require("./routes/routes.js"));
+app.use("/api/product", require("./routes/product.js"));
 
+if(process.env.PORT === 'production'){
+    app.use(express.static(__dirname + '/dist/'));
+    app.get('*', (req,res)=>{
+        res.sendFile(__dirname + '/dist/index.html')
+    })
+}
 //start server
 app.listen(port, () => console.log('Server running at http://localhost:'+port));
 

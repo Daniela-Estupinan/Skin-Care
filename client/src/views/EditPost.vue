@@ -53,6 +53,7 @@ export default{
 
            if(this.$refs.form.validate()){
                const response = await API.updatePost(this.$route.params.id, formData);
+              
                this.$router.push({
                    name: 'home',
                    params: {message: response.message}
