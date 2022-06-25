@@ -5,6 +5,9 @@
     {{this.$route.params.message}}
     </v-alert>
     <v-row>
+      <v-title>
+            <router-link to="/add-product">Add new product</router-link>
+             </v-title>
       <v-col sm="4" class="pa-3" v-for="product in products" :key="product._id">
 
         <v-card class="pa-1" :to="{ name:'product', params:{id:product._id}}" >
@@ -12,7 +15,7 @@
             {{product.category}}
           </v-card-text>
           <v-card-title class="headline">
-            {{product.nombre}}
+            {{product.nombre}}-${{product.price}}
           </v-card-title>
           <v-card-text class="py-0" >
             <p>

@@ -31,5 +31,10 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "proxy": {
+  "/auth/google": {
+    "target": "https://skin-care-tips.herokuapp.com/api/post/"
   }
+}
 }

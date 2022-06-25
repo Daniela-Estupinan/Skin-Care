@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = "/api/post";
+const url = "https://skin-care-tips.herokuapp.com/api/post";
 
 export default class API{
     //get all post form the server

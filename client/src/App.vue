@@ -65,12 +65,13 @@
         { title: 'Home', icon: 'mdi-home',link:"/home" },
         { title: 'Add Post', icon: 'mdi-note-plus',link:"/add-post" },
         { title: 'Productos', icon: 'mdi-shopping',link:"/about" },
+        { title: 'Category', icon: 'mdi-chart-bubble',link:"/category" },
         
       ],
      }),
          methods:{
              async removeToken(){
-                 const response = await fetch("http://localhost:5000/api/user/login/");
+                 const response = await fetch("https://skin-care-tips.herokuapp.com/api/user/login/");
                  localStorage.clear();
                    this.$router.push({
                    name: 'login',

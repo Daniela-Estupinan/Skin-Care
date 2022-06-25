@@ -49,7 +49,7 @@ export default{
             formData.append('title', this.post.title);
            formData.append('category', this.post.category);
            formData.append('content', this.post.content);
-           formData.append('old_image', this.post.image);
+         
 
            if(this.$refs.form.validate()){
                const response = await API.updatePost(this.$route.params.id, formData);
