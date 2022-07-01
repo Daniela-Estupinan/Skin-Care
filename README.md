@@ -17,7 +17,7 @@ Link proyecto deployado
 
 ### Prerequisites
 Credenciales de usuario para iniciar sesión 
-- Usuario:daniela@gmail.com
+- Usuario: daniela@gmail.com
 - Contraseña: 1234
 
 
