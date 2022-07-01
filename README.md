@@ -8,6 +8,8 @@ checkbox.
 Existe también Categoría que es un Filtro de los post y productos bajo la categoría 
 seleccionada
 
+Existe un login par administrador el cual permite agregar nuevos productos.
+
 Link proyecto deployado
 [Netlify-SkinCare](https://iridescent-meerkat-1d982f.netlify.app/).
 
@@ -15,9 +17,11 @@ Link proyecto deployado
 
 ### Prerequisites
 Credenciales de usuario para iniciar sesión 
-- [Usuario:](daniela@gmail.com)
-- [Example 2](https://www.example.com)
-
+- Usuario:daniela@gmail.com
+- Contraseña: 1234
+Credenciales de administrador
+- Usuario: admin@gmail.com
+- Contrasela: admin
 
 ## Deployment
 
