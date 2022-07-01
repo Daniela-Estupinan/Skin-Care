@@ -19,6 +19,8 @@ Link proyecto deployado
 Credenciales de usuario para iniciar sesión 
 - Usuario:daniela@gmail.com
 - Contraseña: 1234
+
+
 Credenciales de administrador
 - Usuario: admin@gmail.com
 - Contrasela: admin
