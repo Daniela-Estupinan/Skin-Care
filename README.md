@@ -27,8 +27,8 @@ Credenciales de administrador
 
 ## Deployment
 
-Client se usa npm run serve
-Server se usa npm run dev
+- Client se usa npm run serve
+- Server se usa npm run dev
 
 
 ## Author
