@@ -1,8 +1,3 @@
-﻿# Skin-Care
-# skin-care-tips
-# Admin login credenciales:
--user:admin@gmail.com
- -password:admin
 # Skin Care Tips
 
 En el menú de hamburguesa escoge la opción de “Productos”, una vez ya este loggeado
@@ -14,7 +9,7 @@ Existe también Categoría que es un Filtro de los post y productos bajo la cate
 seleccionada
 
 Link proyecto deployado
-[gist](https://iridescent-meerkat-1d982f.netlify.app/).
+[Netlify-SkinCare](https://iridescent-meerkat-1d982f.netlify.app/).
 
 ## Getting Started
 
