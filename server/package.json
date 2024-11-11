@@ -34,7 +34,7 @@
   },
   "proxy": {
   "/auth/google": {
-    "target": "https://skin-care-tips.herokuapp.com/api/post/"
+    "target": "http://localhost:5000/api/post/"
   }
 }
 }

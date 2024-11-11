@@ -59,7 +59,7 @@ export default{
     }
   },
    async created(){        
-      const response = await fetch("https://skin-care-tips.herokuapp.com/api/user/login/");
+      const response = await fetch("http://localhost:5000/api/user/login/");
       if(localStorage.getItem("token")===null){
         console.log(localStorage.getItem("token"));
         
